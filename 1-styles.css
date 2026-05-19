@@ -145,6 +145,8 @@ section {
 	line-height: 1.8;
 }
 
+/* WHAT WE DO */
+
 .section-what-we-do {
 	color: var(--color-black);
 	display: flex;
@@ -155,11 +157,7 @@ section {
 	padding: 100px;
 }
 
-.section-what-we-do .title h2 {
-	text-align: center;
-}
-
-.section-what-we-do .section-content p {
+.section-what-we-do .what-we-do-content p {
 	max-width: 650px;
 	font-size: var(--font-size-x-small);
 	font-weight: 500;
@@ -168,33 +166,29 @@ section {
 	text-align: center;
 }
 
-.card-grid {
-	display: flex;
-	gap: 150px;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.card {
+.what-we-do-item {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	text-align: center;
 }
 
-.card-icon {
-	font-size: 90px;
-	color: var(--color-primary);
+.what-we-do-elements {
+	display: flex;
+	gap: 150px;
 }
 
-.card-title {
-	margin-top: 50px;
-	margin-bottom: 20px;
-}
-
-.card-text {
+.what-we-do-elements p {
 	font-size: var(--font-size-x-small);
 	line-height: 1.8;
+	text-align: center;
 	max-width: 207px;
+}
+
+.what-we-do-item .text-icon {
+	color: var(--color-red);
+}
+
+.what-we-do-item h3 {
+	margin-top: 50px;
 }
